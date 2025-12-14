@@ -1,0 +1,156 @@
+{
+  "conversation_id": 53911,
+  "user_id": 52599,
+  "evaluation_mode": "hybrid_llm",
+  "total_turns_evaluated": 8,
+  "evaluation_summary": {
+    "avg_relevance_score": 0.59,
+    "avg_hallucination_rate": 0.25,
+    "total_latency_ms": 34200.8,
+    "total_cost_usd": 0.003942,
+    "token_usage": {
+      "input_tokens": 5339,
+      "output_tokens": 1003,
+      "embedding_tokens": 108278,
+      "total_tokens": 114620
+    },
+    "llm_usage": {
+      "total_llm_calls": 21,
+      "relevance_calls": 5,
+      "claim_extraction_calls": 6,
+      "grounding_calls": 10,
+      "percentage": 87.5
+    }
+  },
+  "turn_evaluations": [
+    {
+      "turn": 2,
+      "message": "That's great, may I know what are you looking to know more about?",
+      "user_query": "I need medical advice",
+      "relevance_score": 0.0,
+      "relevance_label": "low",
+      "relevance_method": "semantic",
+      "hallucination_score": 0.0,
+      "hallucinated_claims": [],
+      "total_claims": 0,
+      "grounded_claims": 0,
+      "latency_ms": 3736.4,
+      "cost_usd": 0.0,
+      "evaluation_timestamp": "2025-12-13T20:43:54.695384"
+    },
+    {
+      "turn": 3,
+      "message": "I know what you're going through. Let's talk. I'm here to support you for all your infertility and I...",
+      "user_query": "No query",
+      "relevance_score": 1.0,
+      "relevance_label": "N/A",
+      "relevance_method": "none",
+      "hallucination_score": 0.5,
+      "hallucinated_claims": [
+        "Please tell me what's on your mind."
+      ],
+      "total_claims": 2,
+      "grounded_claims": 1,
+      "latency_ms": 3681.51,
+      "cost_usd": 0.000205,
+      "evaluation_timestamp": "2025-12-13T20:43:58.376894"
+    },
+    {
+      "turn": 5,
+      "message": "I understand your situation and the dilemma you're facing. It can be difficult to decide whether to ...",
+      "user_query": "My amh 0.68 afc 4 age 34+.doctor advised for donor egg. Should I go with donor egg or self egg",
+      "relevance_score": 0.7834090924263,
+      "relevance_label": "high",
+      "relevance_method": "hybrid",
+      "hallucination_score": 0.0,
+      "hallucinated_claims": [],
+      "total_claims": 4,
+      "grounded_claims": 4,
+      "latency_ms": 4549.25,
+      "cost_usd": 0.00089,
+      "evaluation_timestamp": "2025-12-13T20:44:02.927159"
+    },
+    {
+      "turn": 7,
+      "message": "I see, you've already been through several ovulation induction cycles, and now you're considering yo...",
+      "user_query": "I have tried 5 cycles of ovulation induction.this is first ivf cycle",
+      "relevance_score": 0.7093478834629058,
+      "relevance_label": "high",
+      "relevance_method": "hybrid",
+      "hallucination_score": 0.5,
+      "hallucinated_claims": [
+        "You've already been through several ovulation induction cycles"
+      ],
+      "total_claims": 2,
+      "grounded_claims": 1,
+      "latency_ms": 4198.35,
+      "cost_usd": 0.001521,
+      "evaluation_timestamp": "2025-12-13T20:44:07.125508"
+    },
+    {
+      "turn": 9,
+      "message": "I understand you're looking for a definitive answer on whether donor eggs are the right choice. It's...",
+      "user_query": "So I just want to know is going on donor egg is right choice",
+      "relevance_score": 0.7789122080802917,
+      "relevance_label": "high",
+      "relevance_method": "hybrid",
+      "hallucination_score": 0.0,
+      "hallucinated_claims": [],
+      "total_claims": 4,
+      "grounded_claims": 4,
+      "latency_ms": 4814.61,
+      "cost_usd": 0.002443,
+      "evaluation_timestamp": "2025-12-13T20:44:11.941151"
+    },
+    {
+      "turn": 11,
+      "message": "Thank you for confirming your AFC. Considering your low AMH and AFC, success with your own eggs migh...",
+      "user_query": "Afc is 4",
+      "relevance_score": 0.181830495595932,
+      "relevance_label": "low",
+      "relevance_method": "semantic",
+      "hallucination_score": 0.0,
+      "hallucinated_claims": [],
+      "total_claims": 3,
+      "grounded_claims": 3,
+      "latency_ms": 4617.82,
+      "cost_usd": 0.003026,
+      "evaluation_timestamp": "2025-12-13T20:44:16.558969"
+    },
+    {
+      "turn": 13,
+      "message": "I understand you're wondering about the non-emotional downsides of not having a genetically related ...",
+      "user_query": "Yes. What are cons of not having genetically related child except for being emotional",
+      "relevance_score": 0.6704339933395386,
+      "relevance_label": "medium",
+      "relevance_method": "hybrid",
+      "hallucination_score": 1.0,
+      "hallucinated_claims": [
+        "Genes combine in unique ways within a family",
+        "Each child is an individual",
+        "The emotional bond is equally important as genetics"
+      ],
+      "total_claims": 3,
+      "grounded_claims": 0,
+      "latency_ms": 4205.85,
+      "cost_usd": 0.003361,
+      "evaluation_timestamp": "2025-12-13T20:44:20.764824"
+    },
+    {
+      "turn": 15,
+      "message": "I understand your concern about the long-term health of a baby conceived through donor eggs. It's na...",
+      "user_query": "I am open to donor option. I am happy that I will get a my baby. Just want to know  will my donor eg...",
+      "relevance_score": 0.5990856778621674,
+      "relevance_label": "medium",
+      "relevance_method": "hybrid",
+      "hallucination_score": 0.0,
+      "hallucinated_claims": [],
+      "total_claims": 4,
+      "grounded_claims": 4,
+      "latency_ms": 4397.01,
+      "cost_usd": 0.003942,
+      "evaluation_timestamp": "2025-12-13T20:44:25.161838"
+    }
+  ],
+  "evaluated_at": "2025-12-13T20:44:25.161838"
+}
