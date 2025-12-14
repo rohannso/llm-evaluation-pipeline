@@ -511,7 +511,7 @@ python evaluate_hybrid.py \
    Total Latency: 24762ms
    Total Cost: $0.004119
 
-💾 Results saved to: data/evaluation_results.json
+💾 Results saved to: data/result/evaluation_results.json
 ```
 
 ---
@@ -564,32 +564,16 @@ streamlit run dashboard.py
 
 
 
-## 📝 Assignment Requirements Checklist
 
-✅ **Evaluates all 3 parameters:** Relevance, Hallucination, Latency/Cost  
-✅ **Works with provided JSON format:** Chat conversations + context vectors  
-✅ **Real-time evaluation capability:** <5 seconds per conversation  
-✅ **Follows PEP-8 guidelines:** Clean, readable code  
-✅ **Includes architecture explanation:** Detailed in this README  
-✅ **Explains design decisions:** Hybrid approach rationale provided  
-✅ **Addresses scalability:** Cost projections + optimization strategies  
-✅ **Public GitHub repo:** [Link to your repo]  
 
----
 
-## 🤝 Contributing
-
-This project was built for the BeyondChats internship assignment. Feedback and suggestions are welcome!
-
----
 
 \
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Rohan Sonawane**
+- Email: rohannso14@gmail.com
 
 
 
