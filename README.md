@@ -35,14 +35,24 @@ Built for BeyondChats internship assignment, demonstrating real-world LLM evalua
 git clone https://github.com/yourusername/llm-evaluation-pipeline.git
 cd llm-evaluation-pipeline
 
+# create a virtual environment
+python -m venv venv
+# Activate virtual environment
+
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
 # Install dependencies
+
 pip install -r requirements.txt
 
 # Download spaCy model (optional, for better claim extraction)
 python -m spacy download en_core_web_sm
 
 # Set up environment variables
-cp .env.example .env
+cp .env
 # Edit .env and add your GROQ_API_KEY
 ```
 
@@ -51,7 +61,7 @@ cp .env.example .env
 ```bash
 
 
- use the hybrid version (recommended)
+use the hybrid version (recommended)
 python mainh.py data/sample-chat-conversation-01.json data/sample_context_vectors-01.json
 
 # View results
@@ -61,8 +71,6 @@ cat data/result/evaluation_results.json
 ### Interactive Dashboard (Optional)
 
 ```bash
-# Install dashboard dependencies
-pip install -r requirements-dashboard.txt
 
 # Launch the dashboard
 streamlit run dashboard.py
