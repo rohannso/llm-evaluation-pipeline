@@ -32,7 +32,7 @@ Built for BeyondChats internship assignment, demonstrating real-world LLM evalua
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-evaluation-pipeline.git
+git clone https://github.com/rohannso/llm-evaluation-pipeline.git
 cd llm-evaluation-pipeline
 
 # create a virtual environment
